@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="my-msa" />
+      <module name="my-msa.app-core" />
+      <module name="my-msa.app-core.main" />
+      <module name="my-msa.app-core.test" />
+      <module name="my-msa.app-eureka.main" />
+      <module name="my-msa.app-eureka" />
+      <module name="my-msa.app-eureka.test" />
+      <module name="my-msa.app-gateway.main" />
+      <module name="my-msa.app-gateway" />
+      <module name="my-msa.app-gateway.test" />
+      <module name="my-msa.app-web.main" />
+      <module name="my-msa.app-web" />
+      <module name="my-msa.app-web.test" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2dbab2d1-4873-4a39-b3f6-40053b5eb58b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-gateway/my-msa.app-gateway.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-core/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-eureka/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-eureka/src/main/java/com/mymsa/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-eureka/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-gateway/app-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-gateway/src/main/java/com/mymsa/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-web/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-web/src/main/java/com/mymsa/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-web/src/main/java/com/mymsa/web/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app-web/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/app-core">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/app-eureka">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app-eureka">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-msa" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-msa" type="f1a62948:ProjectNode" />
+                <item name="app-core" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="my-msa" type="f1a62948:ProjectNode" />
+                <item name="app-eureka" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hleZLEp5dIlyGJAug3ez1sE0KZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.'my-msa.app-eureka'에 있는 테스트.executor": "Coverage",
+    "Gradle.app-core [:AppCoreApplication.main()].executor": "Run",
+    "Gradle.app-core 빌드.executor": "Run",
+    "Gradle.app-eureka [:app-eureka:AppEurekaApplication.main()].executor": "Run",
+    "Gradle.app-eureka [build].executor": "Run",
+    "Gradle.app-eureka [clean].executor": "Run",
+    "Gradle.app-eureka [jar].executor": "Run",
+    "Gradle.app-eureka 빌드.executor": "Run",
+    "Gradle.my-msa [build].executor": "Run",
+    "Gradle.my-msa 빌드.executor": "Run",
+    "Gradle.my-msa:app-eureka [:app-eureka:EurekaApplication.main()].executor": "Run",
+    "Gradle.my-msa:app-gateway [:app-gateway:GatewayApplication.main()].executor": "Run",
+    "Gradle.my-msa:app-web [:app-web:WebApplication.main()].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AppCoreApplication (1).executor": "Run",
+    "Spring Boot.AppCoreApplication.executor": "Run",
+    "Spring Boot.AppEurekaApplication.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/my-msa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3275862",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\my-msa\app-web\src\main\resources" />
+      <recent name="C:\workspace\my-msa\app-web" />
+      <recent name="C:\workspace\my-msa\app-gateway\src\main\resources" />
+      <recent name="C:\workspace\my-msa\app-gateway" />
+      <recent name="C:\workspace\my-msa\app-eureka" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="애플리케이션.WebApplication">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mymsa.eureka.EurekaApplication" />
+      <module name="my-msa.app-eureka.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mymsa.gateway.GatewayApplication" />
+      <module name="my-msa.app-gateway.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mymsa.web.WebApplication" />
+      <module name="my-msa.app-web.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="my-msa.app-eureka.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mymsa.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="my-msa.app-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mymsa.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="애플리케이션.EurekaApplication" />
+      <item itemvalue="애플리케이션.GatewayApplication" />
+      <item itemvalue="애플리케이션.WebApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="2dbab2d1-4873-4a39-b3f6-40053b5eb58b" name="변경" comment="" />
+      <created>1718173147661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718173147661</updated>
+      <workItem from="1718173149738" duration="123000" />
+      <workItem from="1718173321621" duration="4270000" />
+      <workItem from="1718234190667" duration="3394000" />
+      <workItem from="1718240897558" duration="88000" />
+      <workItem from="1718241000311" duration="4705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="app-eureka.main" />
+    <module name="app-eureka.test" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/my_msa$_my_msa_app_eureka___.ic" NAME="'my-msa.app-eureka'에 있는 테스트 커버리지 결과" MODIFIED="1718176630263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
