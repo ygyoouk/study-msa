@@ -2,12 +2,22 @@ spring:
   profiles:
     active: local
   application:
-    name: app-web
+    name: gateway
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+    gateway:
+      routes:
+        - id: web-service
+          predicates:
+            - Path=/web-service/**
+          uri: lb://web-service
 
 ---
 # local
 server:
-  port: 0
+  port: 9001
 
 spring:
   config:

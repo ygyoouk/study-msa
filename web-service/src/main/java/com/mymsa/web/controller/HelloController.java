@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
-@RequestMapping("/app-web")
+@RequestMapping("/web-service")
 @RestController
 @Slf4j
 public class HelloController {
 
     @GetMapping("/hello")
     public Mono<String> hello() {
-        log.info("hello controller - /app-web/hello !!!");
+        log.info("hello controller - /web-service/hello !!!");
         return Mono.just("hello : " + System.currentTimeMillis());
     }
 }

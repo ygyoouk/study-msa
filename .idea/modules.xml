@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-eureka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-eureka.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-eureka.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app-eureka.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-gateway/my-msa.app-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-gateway/my-msa.app-gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway/study-msa.gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway/study-msa.gateway.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-service/study-msa.web-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/web-service/study-msa.web-service.main.iml" />
     </modules>
   </component>
 </project>
