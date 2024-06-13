@@ -13,6 +13,8 @@ spring:
           predicates:
             - Path=/web-service/**
           uri: lb://web-service
+      default-filters:
+        - name: GlobalFilter
 
 ---
 # local
