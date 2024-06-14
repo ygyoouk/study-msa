@@ -22,11 +22,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dbab2d1-4873-4a39-b3f6-40053b5eb58b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mymsa/core/context/MSAContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mymsa/gateway/filter/GlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/controller/BlogPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/model/BlogPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/repository/BlogPostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/service/BlogPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-service/src/main/resources/blogPostRequest.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-service/src/main/java/com/mymsa/web/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +89,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Private Environment File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -100,52 +112,55 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.'my-msa.app-eureka'에 있는 테스트.executor&quot;: &quot;Coverage&quot;,
-    &quot;Gradle.app-core [:AppCoreApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app-core 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app-eureka [:app-eureka:AppEurekaApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app-eureka [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app-eureka [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app-eureka [jar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.app-eureka 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.my-msa [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.my-msa 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.my-msa:app-eureka [:app-eureka:EurekaApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.my-msa:app-gateway [:app-gateway:GatewayApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.my-msa:app-web [:app-web:WebApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.study-msa 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AppCoreApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppCoreApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.AppEurekaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.WebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/study-msa&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3275862&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;application.passwordSafe&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml: Compose 배포.executor": "Run",
+    "Gradle.'my-msa.app-eureka'에 있는 테스트.executor": "Coverage",
+    "Gradle.app-core [:AppCoreApplication.main()].executor": "Run",
+    "Gradle.app-core 빌드.executor": "Run",
+    "Gradle.app-eureka [:app-eureka:AppEurekaApplication.main()].executor": "Run",
+    "Gradle.app-eureka [build].executor": "Run",
+    "Gradle.app-eureka [clean].executor": "Run",
+    "Gradle.app-eureka [jar].executor": "Run",
+    "Gradle.app-eureka 빌드.executor": "Run",
+    "Gradle.my-msa [build].executor": "Run",
+    "Gradle.my-msa 빌드.executor": "Run",
+    "Gradle.my-msa:app-eureka [:app-eureka:EurekaApplication.main()].executor": "Run",
+    "Gradle.my-msa:app-gateway [:app-gateway:GatewayApplication.main()].executor": "Run",
+    "Gradle.my-msa:app-web [:app-web:WebApplication.main()].executor": "Run",
+    "Gradle.study-msa 빌드.executor": "Run",
+    "HTTP 요청.blogPostRequest | blog-post 삭제.executor": "Run",
+    "HTTP 요청.blogPostRequest | blog-post 생성.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppCoreApplication (1).executor": "Run",
+    "Spring Boot.AppCoreApplication.executor": "Run",
+    "Spring Boot.AppEurekaApplication.executor": "Run",
+    "Spring Boot.EurekaApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.WebApplication.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/study-msa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3275862",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\my-msa\app-web\src\main\resources" />
@@ -164,7 +179,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
+  <component name="RunManager" selected="HTTP 요청.blogPostRequest | blog-post 수정">
     <configuration name="GatewayApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.mymsa.gateway.GatewayApplication" />
       <module name="study-msa.gateway.main" />
@@ -172,6 +187,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="blogPostRequest | blog-post 삭제" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/web-service/src/main/resources/blogPostRequest.http" index="2" requestIdentifier="blog-post 삭제" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="blogPostRequest | blog-post 목록조회" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/web-service/src/main/resources/blogPostRequest.http" index="2" requestIdentifier="blog-post 목록조회" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="blogPostRequest | blog-post 수정" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/web-service/src/main/resources/blogPostRequest.http" index="3" requestIdentifier="blog-post 수정" runType="단일 요청 실행">
+      <method v="2" />
+    </configuration>
+    <configuration name="blogPostRequest | blog-post 생성" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/web-service/src/main/resources/blogPostRequest.http" requestIdentifier="blog-post 생성" runType="단일 요청 실행">
+      <method v="2" />
     </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="study-msa.eureka.main" />
@@ -194,12 +221,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="docker-compose.yml: Compose 배포" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.docker-compose.yml: Compose 배포" />
+      <item itemvalue="HTTP 요청.blogPostRequest | blog-post 목록조회" />
+      <item itemvalue="HTTP 요청.blogPostRequest | blog-post 삭제" />
+      <item itemvalue="HTTP 요청.blogPostRequest | blog-post 생성" />
+      <item itemvalue="HTTP 요청.blogPostRequest | blog-post 수정" />
       <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="애플리케이션.GatewayApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 요청.blogPostRequest | blog-post 수정" />
+        <item itemvalue="HTTP 요청.blogPostRequest | blog-post 목록조회" />
+        <item itemvalue="HTTP 요청.blogPostRequest | blog-post 생성" />
+        <item itemvalue="HTTP 요청.blogPostRequest | blog-post 삭제" />
+        <item itemvalue="Docker.docker-compose.yml: Compose 배포" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -223,7 +272,7 @@
       <workItem from="1718240897558" duration="88000" />
       <workItem from="1718241000311" duration="7074000" />
       <workItem from="1718253487648" duration="7024000" />
-      <workItem from="1718320431096" duration="1261000" />
+      <workItem from="1718320431096" duration="10491000" />
     </task>
     <task id="LOCAL-00001" summary="msa 공부 최초">
       <option name="closed" value="true" />
@@ -241,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718262387455</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gloabl filter 추가">
+      <option name="closed" value="true" />
+      <created>1718321766115</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718321766115</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +311,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="msa 공부 최초" />
     <MESSAGE value="msa 공부" />
-    <option name="LAST_COMMIT_MESSAGE" value="msa 공부" />
+    <MESSAGE value="gloabl filter 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="gloabl filter 추가" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_msa$_my_msa_app_eureka___.ic" NAME="'my-msa.app-eureka'에 있는 테스트 커버리지 결과" MODIFIED="1718176630263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

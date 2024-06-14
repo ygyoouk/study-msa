@@ -1,0 +1,27 @@
+### blog-post 생성
+POST http://localhost:9001/web-service/blog-post
+Content-Type: application/json
+
+{
+  "title": "blog post create title #5",
+  "content": "blog post create content #5"
+}
+
+
+### blog-post 목록조회
+GET http://localhost:9001/web-service/blog-post
+
+
+### blog-post 수정
+PUT http://localhost:9001/web-service/blog-post
+Content-type: application/json
+
+{
+  "post_id": "666bd1726c886f17dbf6dafd",
+  "title": "blog post update title #1",
+  "content": "blog post update content #1"
+}
+
+
+### blog-post 삭제
+DELETE http://localhost:9001/web-service/blog-post/666bd0467af2254d11dfd5f9
